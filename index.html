@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div>
+            <h1>drink water</h1>
+            <span>Goal: 4 Liters</span>
+        </div>
+        <div>
+            <div id="big-glass" class="big glass">
+               <span class="text">4 Liters</span>
+                <div id="water" class="water"></div>
+            </div>
+        </div>
+        <div class="glasses">
+            <div onclick="addWater()" id="glass-1" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-2" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-3" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-4" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-5" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-6" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-7" class="glass">
+                500 mL
+            </div>
+            <div onclick="addWater()" id="glass-8" class="glass">
+                500 mL
+            </div>
+        </div>
+        <div>
+            <button onclick="addMode(true)" id="addButton">+</button>
+            <button onclick="addMode(false)" id="deleteButton">-</button>
+        </div>
+    </div>
+</body>
+</html>

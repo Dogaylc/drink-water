@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+body{
+    margin:0;
+    padding:0;
+
+    width:100%;
+    height:100%;
+    font-family: 'Joan', serif;
+    color:white;
+    background:#508be2;
+}
+
+.content{
+    display:grid;
+    place-items:center;
+    grid-auto-flow:row;
+    row-gap:50px;
+}
+
+.big{
+    width: 150px !important;
+    height: 300px !important;
+    place-items: end !important;
+}
+
+.glass{
+    width: 75px;
+    height: 150px;
+    color: black;
+    background: White;
+
+    border: solid black 5px;
+
+    font-size: 13pt;
+
+    border-radius:0pc 0pc 1pc 1pc;
+
+    display:grid;
+    place-items:center;
+    transition-duration:0.3s !important;
+}
+
+.glasses{
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:auto auto;
+
+    row-gap:20px;
+    column-gap:10px;
+}
+.water{
+    width: 100%;
+    height: 0;
+    background-color: #508be2;
+    border-radius:0pc 0pc .7pc .7pc !important;
+    transition-duration: .5s;
+}
+.text{
+  display:grid;
+  place-self:center;
+  position: absolute;
+}
+button{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
